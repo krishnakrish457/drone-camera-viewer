@@ -51,8 +51,8 @@ Many budget Wi-Fi drones do not expose an open RTSP stream immediately upon conn
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/krishnakrish457/drone-camera-viewer
+cd drone-camera-viewer
 ```
 
 ### 2. Install Python Dependencies
@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 1. **Power on your drone** and place it on a flat surface.
 2. **Connect your computer's Wi-Fi** to the drone's access point:
-   - Look for an open Wi-Fi network (typically named `Drone-XXXX`, `WiFi-FPV-XXXX`, `M3-XXXX`, `W5-XXXX`, etc.).
+   - Look for an open Wi-Fi network (typically named `FLOW-UFO`, `WiFi-FPV-XXXX`, `M3-XXXX`, `W5-XXXX`, etc.).
    - Make sure your operating system doesn't disconnect or switch networks due to "No Internet Connection".
 3. **Run the viewer application**:
    ```bash
